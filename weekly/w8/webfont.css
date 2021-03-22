@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: '1942_report1942_report';
+    src: url('1942-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+	font-family: '1942_report1942_report';
+}
+
+@font-face {
+    font-family: 'archisticonormal';
+    src: url('Archistico_Simple-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+	font-family: 'archisticonormal';
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+h4{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+
+p{
+	font-family: 'Cormorant Unicase', serif;
+	font-weight: 700;
+}
