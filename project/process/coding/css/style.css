@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+	background-image: url("../images/stucco.png");
+	font-family: 'Montserrat', sans-serif;
+	color: #2e2e2e;
+}
+
+#myVideo {
+	position: fixed;
+	top: 60px;
+	right: 17%;
+	overflow: hidden;
+	width: 58%;
+  
+}
+
+h1{
+	margin: 30px 0px 30px 50px;
+	font-weight: 800;
+	font-size: 48px;
+	letter-spacing: 25px;
+}
+
+h2{
+	margin-left: 50px;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 7px;
+}
+
+h3{
+	margin-left: 75%;
+	font-weight: 800;
+	font-size: 32px;
+	letter-spacing: 7px;
+	margin-top: 70px;
+	margin-bottom: 10px;
+}
+
+h4{
+	margin-bottom: 30px;
+	margin-top: 0px;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+h5{
+	margin-bottom: 30px;
+	margin-top: 0px;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 2px;
+
+   /* text-shadow: 0 0 5px #0a5756;*/
+}
+
+h6{
+	text-align: center;
+	font-size: 32px;
+	letter-spacing: 7px;
+	font-weight: 800;
+		
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	background-color: hsla(185, 51%, 34%, 0.3);
+}
+
+ol{
+	font-weight: 600;
+	font-size: 15px;
+	letter-spacing: 2px;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+li{
+	margin-bottom: 30px;
+}
+
+a:link, a:visited {
+    color: #2e2e2e;
+	text-decoration: none;
+}
+a:active, a:hover {
+ 	color: #93ceca;
+	text-decoration: none;
+}
+
+a.active{
+	color: #93ceca;
+	text-decoration: none;
+}
+
+#nav{
+	width: 180px;
+	height: 594px;
+	display: block;
+	margin-top: 130px;
+	margin-left: 50px;
+	position:fixed;
+}
+
+#logo{
+	margin-top: 100px;
+	width: 180px;
+	height: 120px;
+}
+
+#gallery { 
+	width:58%; 
+	padding:5px;
+	margin-left: 30%;
+	margin-bottom: 25px;
+	
+}
+
+#gallery img {
+	width: 30%;
+	padding:1%;
+}
+
+.container {
+	
+	float: left;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centered {
+  position: absolute;
+	
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
