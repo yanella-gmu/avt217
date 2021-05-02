@@ -173,7 +173,8 @@ a.active{
 
 #gallery img {
 	width: 30%;
-	padding:1%;
+	margin:1%;
+	border: solid 0.6px #717171;
 }
 
 footer{
